@@ -1,7 +1,12 @@
 
 # PyCitySchools_Challenge
+
+![test](./Images/Screenshot_1.png)
+
 ## Overview of PyCityShcools Challenge
-The goal of this challenge was to analyze the standardized testing results from a large number of schools state-wide. The test results covered both Math and Reading from 9th to 12th grade and the purpose of this analysis was to see how removing test results from Thomas High School's 9th grade class affect the overall results we obtained from the assignment in Module 4 ( see http://localhost:8888/notebooks/PyCitySchools_Challenge_testing.ipynb ). In Module 4 we found the overall passing percentage of the students and determine whether there is any correlation with the budget per student.
+The goal of this challenge was to analyze the standardized testing results from a large number of schools state-wide. The test results covered both Math and Reading from 9th to 12th grade and the purpose of this analysis was to see how removing test results from Thomas High School's 9th grade class affect the overall results we obtained from the assignment in Module 4 ( see 
+![A test image](Images\Screenshot 1 .png)
+In Module 4 we found the overall passing percentage of the students and determine whether there is any correlation with the budget per student.
 Deliverable 1: Replace Thomas High School's 9th-grade reading and math scores with Nan.
 We used the loc method to select all the reading and math scores from the ninth grade at Thomas High School. Inside the loc method a comparison operator was used to retrieve all the rows with Thomas High School, logical and comparison operators were used to retrieve all the rows with the "reading_score" and "math_score" column. The reading and math score for the ninth graders in Thomas High School are replaced with Nans. The code and table can be seen below. 
  
